@@ -1,0 +1,38 @@
+{
+  "name": "beataequi",
+  "version": "1.0.0",
+  "description": "Test Archetype contracts in TS ",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "/build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarinaLedner/beataequi.git"
+  },
+  "keywords": [
+    "tezos",
+    "aut",
+    "ipsum",
+    "qui"
+  ],
+  "author": "JaylanCrist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarinaLedner/beataequi.git/issues"
+  },
+  "dependencies": {
+    "@completium/archetype-ts-types": "latest",
+    "@completium/completium-cli": "^0.4.49",
+    "bignumber.js": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0"
+  }
+}
